@@ -62,7 +62,7 @@ class App extends Component {
       <div className='container'>
         <Alert alert={alert}/>
         <Switch>
-          <Route exact path='/github_profile_finder' render={props => (
+          <Route exact path='/' render={props => (
             <Fragment>
               <Search 
                 searchUsers={this.searchUsers} 
